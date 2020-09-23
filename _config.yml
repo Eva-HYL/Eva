@@ -107,14 +107,5 @@ theme: zhaoo
 deploy:
   type: git
   repo: https://github.com/Eva-HYL/Eva.git
-  branch: master
+  branch: gh-pages
 
-# Preview
-preview:
-  enable: true
-  model: wave  #cloud
-  welcome_image: /images/theme/welcome-image.jpg
-  motto:
-    default: 我在开了灯的床头下，想问问自己的心啊。
-    color: '#000000'
-    api:  #'http://localhost:3000/api/motto'
