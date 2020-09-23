@@ -6,7 +6,8 @@
 title: Eva
 subtitle: 'Peace & love'
 description: ''
-keywords:
+# 网站关键词
+keywords: Eva
 author: Eva Huang
 language: zh-CN
 timezone: ''
@@ -105,3 +106,13 @@ theme: zhaoo
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Preview
+preview:
+  enable: true
+  model: wave  #cloud
+  welcome_image: /images/theme/welcome-image.jpg
+  motto:
+    default: 我在开了灯的床头下，想问问自己的心啊。
+    color: '#000000'
+    api:  #'http://localhost:3000/api/motto'
